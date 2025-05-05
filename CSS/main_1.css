@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container  {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+
+/* Header */
+.header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom-right-radius: 100px;
+    background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+    color: #fff;
+}
+
+.header-img {
+    border-radius: 90px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn {
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #1782cf;
+    color: black;
+}
+
+.btn-outline {
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 1;
+    border: 1px solid #3B3B3B;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+    border-color: #1782cf;
+    color: #1782cf;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 88px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 65px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-img:hover {
+    opacity: 0.8;
+}
+
+.project-title {
+    font-size: 25px;
+}
+
+.project-title a {
+    color: black;
+    text-decoration: underline;
+    transition: all 0.3s ease-out;
+}
+
+.project-title a:hover {
+    color: #1782cf;
+}
+
+/* Contacts */
+.contacts {
+    padding: 80px 0;
+    background-color: #252525;
+    color: #fff;
+    border-top-left-radius: 100px;
+}
+
+.contacts-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.messengers {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.messenger {
+    padding: 46px 20px;
+    border-radius: 20px;
+    border: 1px solid #363636;
+    color: #fff;
+    flex-grow: 1;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.messenger:hover {
+    background-color: #1e1e1e;
+}
+
+/* Footer */
+.footer {
+    padding: 30px 0;
+    background-color: #1E1E1E;
+    color: #5d5d5d;
+}
+
+.footer a {
+    color: #5886a8;
+}
+
+.footer-inner {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-inner p + p {
+    margin-top: 15px;
+}
+
+/* Inner page */
+.inner-page {
+    padding: 80px 0 40px;
+}
+
+.inner-page-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inner-page-title {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.inner-page-text {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.inner-page-link {
+    color: black;
+}
+
+.inner-page-image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.inner-page-backlink {
+    max-width: 770px;
+    background-color: #f1f1f1;
+    padding: 30px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.inner-page-backlink:hover {
+    background-color: #dedede;
+}
+
+
